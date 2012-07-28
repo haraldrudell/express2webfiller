@@ -1,0 +1,22 @@
+{
+	"name": "express2temblor",
+	"description": "Render pure html with json data by Harald Rudell",
+	"author": "Harald Rudell <harald@allgoodapps.com>",
+	"keywords": ["template", "engine", "express"],
+	"version": "0.0.1",
+	"contributors": [
+		{
+			"name": "Harald Rudell",
+			"email": "harald@allgoodapps.com",
+			"web": "http://blog.haraldrudell.com"
+		}
+	],
+	"dependencies": {
+		"express": "< 3"
+	},
+	"repository" : {
+		"type" : "git",
+		"url" : "https://haraldrudell@github.com/haraldrudell/express2temblor.git"
+	},
+	"main": "app"
+}
