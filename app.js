@@ -9,7 +9,7 @@ var express = require('express')
 var app = module.exports = express.createServer();
 
 // Configuration
-app.register('html', require('htmlfive'))
+app.register('html', require('webfiller'))
 app.configure(function(){
   app.set('views', __dirname + '/views');
   app.set('view engine', 'html');
@@ -30,7 +30,7 @@ app.configure('production', function(){
 });
 
 // Routes
-require('htmlfive').addRoutes({}, app)
+require('webfiller').addRoutes({}, app)
 //app.get('/', routes.index);
 
 app.listen(3004, function(){

@@ -1,8 +1,8 @@
 {
-	"name": "express2htmlfive",
-	"description": "Sample htmlfive app using express 2 by Harald Rudell",
-	"author": "Harald Rudell <harald@allgoodapps.com>",
-	"keywords": ["template", "engine", "express"],
+	"name": "express2webfiller",
+	"description": "Sample webfiller app using express 2 by Harald Rudell",
+	"author": "Harald Rudell <harald@allgoodapps.com> (http://www.haraldrudell.com)",
+	"keywords": ["webfiller", "template", "engine", "express", "html"],
 	"version": "0.0.1",
 	"contributors": [
 		{
@@ -11,13 +11,17 @@
 			"web": "http://blog.haraldrudell.com"
 		}
 	],
+	"devDependencies": {		
+	},
 	"dependencies": {
 		"express": ">= 2.5.11 < 3",
-		"htmlfive": ""
+		"webfiller": ""
 	},
 	"repository" : {
 		"type" : "git",
-		"url" : "https://haraldrudell@github.com/haraldrudell/express2htmlfive.git"
+		"url" : "https://haraldrudell@github.com/haraldrudell/express2webfiller.git"
 	},
-	"main": "app"
+	"main": "app",
+	"scripts": {
+	}
 }
