@@ -6,7 +6,7 @@ exports.getHandler = getHandler
 function getHandler(defaults, view) {
 	return function renderIndex(req, res) {
 		res.render('index', {
-			layout: false,
+			//layout: false,
 			title: 'Webfiller on Express 2',
 			bindings: {
 				'': { // insert at beginning of html document
