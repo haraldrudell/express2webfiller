@@ -3,7 +3,7 @@
 	"description": "Sample webfiller app using express 2 by Harald Rudell",
 	"author": "Harald Rudell <harald@allgoodapps.com> (http://www.haraldrudell.com)",
 	"keywords": ["webfiller", "template", "engine", "express", "html"],
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"contributors": [
 		{
 			"name": "Harald Rudell",
