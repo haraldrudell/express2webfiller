@@ -15,7 +15,7 @@
 	},
 	"dependencies": {
 		"express": ">= 2.5.11 < 3",
-		"webfiller": ""
+		"webfiller": ">= 0.1.2"
 	},
 	"repository" : {
 		"type" : "git",
